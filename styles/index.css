@@ -13,6 +13,10 @@ header{
     font-size: 1em;
     min-width: 823.5px;
 }
+main{
+    position:relative;
+    top: -182.433px;
+}
 
 h1.animate__animated.animate__fadeInTopLeft {
     font-weight: 400;
@@ -21,7 +25,7 @@ h1.animate__animated.animate__fadeInTopLeft {
 
 a.animate__animated.animate__fadeIn{
     position: relative;
-    top: 18rem;
+    top: 30rem;
     left: 20rem;
 
     font-weight: 900;
@@ -43,9 +47,38 @@ a.animate__animated.animate__fadeIn:active{
 }
 
 
-.imageslt {
-    position: relative;
+.videoslt {
+    position: absolute;
     left: calc(75% - 263px);
-    top: -7rem;
+    top: 5rem;
     width: 526px;
+}
+
+
+#unam{
+    /*position:absolute;
+    top: 45rem;
+    */
+    position: absolute;
+    top: 0px;
+    height: 110px;
+    left: 20px;
+
+}
+#fi{
+    /*
+    position:absolute;
+    top: 45rem;
+    left: 17rem;
+    */
+    height: 110px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+
+}
+
+div.animate__animated.fadeInTopLeft{
+    position: absolute;
+    top: -800px;
 }
