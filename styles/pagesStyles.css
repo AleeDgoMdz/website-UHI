@@ -61,6 +61,32 @@ main{
 }
 
 footer{
-    background-color: #a7a9be;
-    margin-bottom: 0px;
+    display: block;
+    background-color: #ff8906;
+    height: 50px;
+    padding: 20px 10px 0px 10px;
+    margin:150px 0 0 0px;
+    font-size: 14px;
+    
+}
+
+footer a{
+    color: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    
+    margin-right: 10px;
+}
+
+.credits{
+    color: #eee;
+    float: right
+}
+.credits a{
+    color: #eee;
+    text-decoration: none;
+    font-weight:initial ;
+}
+.credits a:hover{
+    text-decoration: underline;
 }

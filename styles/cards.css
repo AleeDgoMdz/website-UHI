@@ -63,11 +63,11 @@
 }
 
 .card2 {
-  background-image: url('../images/cdmxslt.png');
+  background-image: url('../images/kiosko.jpg');
 }
 .card2:hover{
   background-image: linear-gradient(to bottom, rgba(240,238, 239, 0.2), rgba(0,0,0, 0.3)),
-  url('../images/cdmxslt.png');
+  url('../images/kiosko.jpg');
 }
 
 
