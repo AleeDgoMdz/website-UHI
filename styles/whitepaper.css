@@ -1,0 +1,147 @@
+body{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Merriweather',sans-serif;
+    margin: 0;
+    background-color: #0f0e17;
+    color: white;
+}
+
+header{
+    display: block;
+    /*
+	background-image: linear-gradient(to bottom, rgba(82, 82, 82, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/soumaya.jpg") ;
+    background-color: black;
+    */
+    background-size: cover ;
+	padding-bottom: 1vh;
+    
+    
+}
+header h1{
+    text-align: justify;
+    font-size: 44px;
+    color: #fff;
+    text-shadow: 0px 3px 3px #0f0e17;
+    margin:auto 40px;
+    font-weight: 700;
+}
+
+.credits-image{
+    width: 500px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.credits-image a{
+    color: inherit;
+    text-decoration:none;
+}
+.credits-image a:hover{
+    text-decoration: underline;
+}
+
+
+.backgroundcolor-header{
+    background-image: linear-gradient(to bottom, rgba(82, 82, 82, 0.5), rgba(0, 0, 0, 0.9)),
+    url("../images/soumaya.jpg") ;
+    background-color: black;
+
+}
+
+nav{
+    padding: 0px 30px;
+    margin-bottom: 150px;
+}
+
+
+nav ul{
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline-block;   
+}
+
+nav ul li:nth-child(1) {
+    margin-right: 20rem;
+}
+
+nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-weight: 400;
+}
+
+nav a:hover{
+    color:#ff8906;
+}
+.active{
+    border-bottom: #ff8906 solid 2px;
+    color: #ff8906
+}
+
+
+
+
+main{
+    max-width: 800px;
+    text-align: justify;
+    margin: auto;
+    color: #a7a9be;
+}
+
+.subtitles{
+    color: #fffffe;
+    margin: 5rem  0px 2.5rem 0px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.texts{
+    margin: 20px inherit;
+}
+
+
+
+
+footer{
+    display: block;
+    background-color: #ff8906;
+    height: 50px;
+    padding: 20px 10px 0px 10px;
+    margin:150px 0 0 0px;
+    font-size: 14px;
+    
+}
+
+footer a{
+    color: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    
+    margin-right: 10px;
+}
+
+.credits{
+    color: #eee;
+    float: right
+}
+.credits a{
+    color: #eee;
+    text-decoration: none;
+    font-weight:initial ;
+}
+
+.credits a:hover{
+    text-decoration: underline;
+}
+
+embed[type="application/pdf"]{
+    display: block;
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+}
