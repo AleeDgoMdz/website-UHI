@@ -2,3 +2,12 @@ main{
     display: flex;
     max-width: none;
 }
+
+
+embed[type="application/pdf"]{
+    display: block;
+    height: 90vh;
+    width: 60vw;
+    margin: auto;
+    border: solid 2px rgba(167,169,190,0.3);
+}

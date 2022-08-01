@@ -138,10 +138,3 @@ footer a{
 .credits a:hover{
     text-decoration: underline;
 }
-
-embed[type="application/pdf"]{
-    display: block;
-    height: 800px;
-    width: 1000px;
-    margin: auto;
-}
